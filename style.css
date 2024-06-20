@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cal-container{
+    width: 30%;
+    height: 30.4rem;
+    border: .2rem solid #000000;
+    border-radius: 1rem;
+    margin: auto;
+    padding-top: 1.5rem;
+    background-color: #33cccc;
+}
+
+.cal-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .1rem;
+}
+
+.cal-screen, .cal-buttons{
+    width: 90%;
+    border: .2rem solid #000000;
+    border-radius: .5rem;
+}
+
+.cal-screen{
+    height: 6rem;
+    background-color: #ebfafa;
+    text-align: right;
+}
+
+.screen-text{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-right: .6rem;
+}
+
+.cal-buttons{
+    height: 22rem;
+    overflow: hidden;
+}
+
+.first-row, .second-row, .third-row, .fourth-row, .fifth-row{
+    display: flex;
+}
+
+.button{
+    width: 30%;
+    height: 4.29rem;
+    border: .1rem solid black;
+    background-color: #2eb8b8;
+    text-align: center;
+}
+
+.btn-text{
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: .7rem;
+    cursor: pointer;
+}
